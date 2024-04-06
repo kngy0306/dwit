@@ -2,15 +2,17 @@
   "extends": "@repo/typescript-config/base.json",
   "compilerOptions": {
     "lib": [
-      "ES2022"
+      "ES2022",
+      "DOM"
     ],
-    "module": "CommonJS",
-    "outDir": "./dist",
   },
   "include": [
-    "./src/**/*.ts"
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "tsup.config.ts"
   ],
   "exclude": [
-    "./src/__tests__/*.ts"
-  ],
+    "node_modules"
+  ]
 }
