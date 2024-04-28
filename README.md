@@ -23,7 +23,7 @@ By default, PostgreSQL is started with Docker.
 Copy and set values in `.env` file.
 
 ```bash
-cp .env.example .env
+cp .env.sample .env
 ```
 
 Create a symbolic link to the root `.env` file in the *database* folder.
@@ -36,6 +36,7 @@ ln -s ../../.env .env
 In root directory, start docker.
 
 ```bash
+# pwd => ~/dwit
 docker compose up
 ```
 
