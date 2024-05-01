@@ -33,7 +33,7 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['**/__tests__/**/*'],
+      files: ['**/tests/**/*'],
       env: {
         jest: true,
       },

@@ -9,7 +9,7 @@
     "clean": "rm -rf dist",
     "typecheck": "tsc --noEmit",
     "lint": "eslint src/",
-    "test": "jest --detectOpenHandles"
+    "test": "jest --detectOpenHandles --verbose"
   },
   "jest": {
     "preset": "@repo/jest-presets/node"

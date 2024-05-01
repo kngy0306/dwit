@@ -1,9 +1,8 @@
-import { createServer } from './server';
+import { server } from './server';
 
 const port = process.env.PORT || 5001;
-const server = createServer();
-const name = 'kona';
+const name = 'dwit';
 
-server.listen(port, () => {
+server().listen(port, () => {
   console.log(`api running on ${port}: from ${name}`);
 });

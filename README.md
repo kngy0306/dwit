@@ -14,7 +14,7 @@ pnpm dev
 Access
 
 - Vite+React: http://localhost:5173/
-- Express: http://localhost:5001/status（and return `{ "ok": true }` message）
+- Express: http://localhost:5001/status/ （and return `{ "ok": true }` message）
 
 ## Set up Database
 
