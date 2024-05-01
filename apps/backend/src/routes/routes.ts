@@ -1,7 +1,7 @@
 import { Router } from 'express';
-import helloController from './hello/hello.controller';
+import pokemonController from './pokemonController';
 
-const api = Router().use(helloController);
-const router: Router = Router().use('/api', api);
+const api = Router().use(pokemonController);
+const router: Router = Router().use('/pokemon', api);
 
 export default router;

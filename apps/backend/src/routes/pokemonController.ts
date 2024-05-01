@@ -2,8 +2,8 @@ import { Router } from 'express';
 
 const router: Router = Router();
 
-router.get('/hello', (_, res) => {
-  return res.json({ message: 'hello' });
+router.get('/pikachu', (_, res) => {
+  return res.json({ name: 'pikachu' });
 });
 
 export default router;
